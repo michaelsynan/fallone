@@ -6,12 +6,12 @@ const items = store.items
 
 <template>
   <div>
-    <div class="text-xs text-stone-500">Pinia Component</div>
-    <h2>Starter Includes:</h2>
-    <ul>
-    <li v-for="(item, index) in items" :key="index" class="text-sm md:text-base">
-      {{ item.name }}
-    </li>
+    <ul class="list-none">
+      <div v-for="(item, index) in items" :key="index" class="h-screen flex justify-center items-center">
+        <li class="text-lg md:text-4xl py-4">
+          {{ item.name }}
+        </li>
+      </div>
     </ul>
   </div>
 </template>

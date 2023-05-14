@@ -9,7 +9,13 @@ module.exports = {
     './app.vue',
   ],
   theme: {
-    extend: {},
+    extend: {
+      
+        fontFamily: {
+          cursive: "Titan One",
+          
+  
+    },
   },
   plugins: [],
 };

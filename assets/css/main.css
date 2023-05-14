@@ -5,6 +5,10 @@
 /*! purgecss start ignore */
 @layer base {
 
+    html {
+        @apply bg-stone-200;    
+    }
+
     h1 {
         @apply text-2xl font-bold md:text-4xl pb-4 pt-2;
     }
@@ -39,3 +43,12 @@
 
 }
 /*! purgecss start ignore */
+
+
+@font-face {
+    font-family: "Titan One";
+    src: url("./assets/fonts/TitanOne-Regular.ttf");
+    font-weight: 400;
+}
+
+h1, h2 {font-family: 'Titan One', cursive;}

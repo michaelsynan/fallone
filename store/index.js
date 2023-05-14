@@ -5,27 +5,27 @@ export const useStore = defineStore({
   state: () => ({
     "items": [
       {
-        "name": "Nuxt 3",
+        "name": "Plumbing",
         "id": "1",
         "description": "Description 1",
       },
       {
-        "name": "TailwindCSS",
+        "name": "Carpentry ",
         "id": "2",
         "description": "Description 2",
       },
       {
-        "name": "Pinia",
+        "name": "Electrical",
         "id": "3",
         "description": "Description 3",
       }, 
       {
-        "name": "Unplugin-Icons",
+        "name": "Furniture Assembly",
         "id": "3",
         "description": "Description 3",
       }, 
       {
-        "name": "Base Layer via Extends (coming soon)",
+        "name": "Painting",
         "id": "4",
         "description": "Description 4",
       }
