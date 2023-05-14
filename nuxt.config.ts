@@ -9,9 +9,9 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
     head: {
-      title: 'Nuxt Tailwind Template',
+      title: 'Greg Fallone',
       meta: [
-        { name: 'description', content: 'Speed up your Nuxt 3 and Vue development with this starter template.' }
+        { name: 'description', content: '' }
       ],
     }
   },
