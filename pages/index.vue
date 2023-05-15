@@ -12,7 +12,7 @@
         <button class="border-2 border-black rounded-full p-4 cursor-pointer bg-white text-black hover:bg-black hover:text-white transition-colors duration-200 shadow-sm">Fix It</button>
       </div>
       <div class="mx-6">
-        <button class="border-2 border-black rounded-full p-4 cursor-pointer bg-white text-black hover:bg-black hover:text-white transition-colors duration-200 shadow-sm">Discuss It</button>
+        <button class="border-2 border-black rounded-full p-4 cursor-pointer bg-white text-black hover:bg-black hover:text-white transition-colors duration-200 shadow-sm">About</button>
       </div>
     </div>
   </div>

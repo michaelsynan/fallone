@@ -33,7 +33,8 @@ onUnmounted(() => {
     <ul class="list-none">
       <div v-for="(item, index) in items" :key="index" class="relative h-screen flex justify-center items-center">
         <li class="text-lg md:text-4xl py-4 item">
-          {{ item.name }}
+          <h2> {{ item.name }}</h2> 
+         <div class="text-2xl">{{  item.description }}</div>
         </li>
       </div>
     </ul>
